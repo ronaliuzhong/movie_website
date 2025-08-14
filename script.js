@@ -14,10 +14,21 @@ function returnMovies(url) {
         console.log(data.results);
         data.results.forEach(element => {
             const div_card = document.createElement('div');
+            div_card.setAttribute('class', 'card');
+
             const div_row = document.createElement('div');
+            div_row.setAttribute('class', 'row');
+
             const div_column = document.createElement('div');
+            div_column.setAttribute('class', 'column');
+
             const image = document.createElement('img');
+            image.setAttribute('class', 'thumbnail');
+            image.setAttribute('id', 'image');
+
             const title = document.createElement('h3');
+            title.setAttribute('class', 'title');
+            
             const center = document.createElement('center');
 
             title.innerHTML = '${element.title)';
