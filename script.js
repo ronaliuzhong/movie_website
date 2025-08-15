@@ -1,4 +1,4 @@
-const APILINK = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.disc&api_key=83354a297ca899d92d7aae28845a331c&page=1';
+const APILINK = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=83354a297ca899d92d7aae28845a331c&page=1';
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280';
 const SEARCHAPI = 'https://api.themoviedb.org/3/search/movie?&api_key=83354a297ca899d92d7aae28845a331c&query=';
 
