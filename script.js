@@ -28,10 +28,10 @@ function returnMovies(url) {
 
             const title = document.createElement('h3');
             title.setAttribute('class', 'title');
-            
+
             const center = document.createElement('center');
 
-            title.innerHTML = '${element.title)';
+            title.innerHTML = `${element.title}`;
             image.src = IMG_PATH + element.poster_path;
 
             center.appendChild(image);
